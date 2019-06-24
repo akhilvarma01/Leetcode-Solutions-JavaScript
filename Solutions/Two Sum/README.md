@@ -7,7 +7,7 @@ This can be done in 2 ways, one is brute force which takes 0(n^2) time by runnin
 We can use Hash Table and run it in one pass.
 We need to iterate and keep inserting elements into table. We check concurrently if a complement of a current number already exists in the table. If yes, we exit and return the solution.
 
-###Explanation:
+### Explanation:
 
 Steps :
 1. Store difference of target and initial values in array into hash table.
