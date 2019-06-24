@@ -12,6 +12,8 @@ const twoSum = function(nums, target) {
      return hash;
  };
 
+----------------------------------------------------------------------
+
 ##32ms solution O(n)
 ##Updated 
 
