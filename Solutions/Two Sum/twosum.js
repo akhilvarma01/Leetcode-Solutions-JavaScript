@@ -1,3 +1,5 @@
+##60ms solution O(n)
+
 const twoSum = function(nums, target) {
   let hash = {};
   for(let i in nums){
@@ -9,3 +11,16 @@ const twoSum = function(nums, target) {
       }
      return hash;
  };
+
+##32ms solution O(n)
+##Updated 
+
+twoSum = (nums,target) => {
+const comp = {};
+  for(let i in nums){
+  if(comp[nums[i]] >=0){
+  return [comp[nums[i]],i];
+  }
+    comp[target - nums[i]] = i;
+  }
+}
